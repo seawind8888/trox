@@ -4,7 +4,7 @@
 
 ## 安装
 ```
-npm i trox
+npm i trox --save
 ```
 
 ## 使用

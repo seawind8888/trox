@@ -1,0 +1,20 @@
+{
+  "name": "trox",
+  "version": "1.0.1",
+  "description": "A lite state management for Taro",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "scripts": {
+    "watch": "rollup --config ./rollup.config.js -w",
+    "build": "rollup --config ./rollup.config.js",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^2.51.2",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.3.2"
+  }
+}
